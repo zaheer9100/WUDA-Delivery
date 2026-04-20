@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Project Description](#1-project-description)
-2. [Features](#2-features)
+<!--  2. [Features](#2-features)
 3. [System Overview](#3-system-overview)
 4. [Stakeholder Analysis](#4-stakeholder-analysis)
 5. [Functional Requirements](#5-functional-requirements)
@@ -51,6 +51,7 @@
 - 13.9 [Figure 9: MVC pattern](#figure-10-mvc-pattern-of-hyperlocal-delivery-system)
 - 13.10 [Figure 10: RESTful API](#figure-11-rest-pattern-of-hyperlocal-delivery-system)
 - 13.11 [Figure 11: Key Architectural Decisions](#figure-8-relationship)
+ -->
 
 ## Group Members
 
