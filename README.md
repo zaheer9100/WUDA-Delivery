@@ -70,7 +70,7 @@ The platform emphasizes ease of use, responsiveness, and seamless interactions a
 
 Overall, this system supports the growing demand for convenient, reliable, and locally focused delivery services, fostering stronger connections between neighborhood vendors and their surrounding communities.
 
-## 2. Features
+<!--## 2. Features
 
 - **Customer Mobile Interface:**
   - Browse local vendors and food points.
@@ -697,3 +697,4 @@ We have provided the alternate competing solutions and the relationships between
 | 2025, May June 15 | Improved the microservices diagram and added it to the development view                                  | Syed, Shahzad, Juraev         |
 | 2025, May June 16 | Provided examples of relationships among decisions and improved decision space diagram.                  | Syed, Danish, Shahzad         |
 
+ -->
