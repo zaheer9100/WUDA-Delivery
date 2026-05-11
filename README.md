@@ -124,7 +124,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 - **Competing Delivery Platforms:** These established players may see our hyperlocal model as a threat, especially since we focus on small vendors within a 3-mile radius. They could respond by lowering fees, offering exclusive vendor contracts, or lobbying for regulations that disadvantage smaller platforms. This could limit our vendor partnerships and customer base.
 - **Traditional Brick-and-Mortar Retailers (Not on the Platform):** Local stores that choose not to join our platform may lose business to competitors who offer delivery. They might discourage customers from using our service, form alliances to exclude us, or resist digital adoption, reducing the variety of vendors available on our system.
 - **Neighborhood Residents (Non-Customers):** Increased delivery traffic (e.g., bikes, scooters) may cause noise, parking issues, or safety concerns in residential areas. Residents could complain to local officials, leading to delivery restrictions or negative publicity that harms our platform’s reputation.
-
+<!--
 ## 5. Functional Requirements
 
 ### <a id="5.1-customer-requirements"></a> 5.1 Customer Requirements
@@ -232,7 +232,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 - The agent shall be able to update the delivery status
 - The agent shall be able to collect customer signatures
 - The agent shall be able to mark orders as delivered
-
+-->
 ## 6. Quality Attributes and Key Stakeholder Concerns
 
 | **Stakeholder**     | **Key Concerns**                                                                                         | **Relevant Quality Attributes** |
@@ -243,9 +243,10 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 | **Product Owner**   | The system architecture should support easy scaling  and work across multiple devices.                   | Scalability                     |
 | **Developers**      | Codebase should be maintainable, allowing for easy updates, improvements, and issue resolution.          | Maintainability                 |
 
+<!--
 ### 6.1. **Usability**
 
-**Stakeholder**: Customers, Delivery Agents\
+ **Stakeholder**: Customers, Delivery Agents\
 **Concern**:
 
 - Customers need an easy-to-use app for browsing, ordering products, and receiving deliveries quickly.
@@ -264,7 +265,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 ### 6.2. **Performance**
 
-**Stakeholder**: Customers\
+ **Stakeholder**: Customers\
 **Concern**:
 
 - Customers expect a responsive platform that provides fast browsing, ordering, and delivery tracking.
@@ -317,7 +318,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 ### 6.5. **Maintainability**
 
-**Stakeholder**: Developers\
+ **Stakeholder**: Developers\
 **Concern**:
 
 - The codebase should be maintainable, allowing for easy updates, improvements, and issue resolution.
@@ -331,8 +332,10 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 - The project follows the **Model-View-Controller (MVC)** design pattern, promoting modularity and separation of concerns, which improves maintainability by making it easier to update individual components.
 - Additionally, the use of **ORM (Object-Relational Mapping)** for database interaction reduces boilerplate code, enhancing the ease of making future database changes.
+-->
 
 ## 7. Architectural Views
+
 
 ### <a id="7-1-context-viewpoint"></a> 7.1 Context Viewpoint
 
@@ -677,27 +680,6 @@ We have provided the alternate competing solutions and the relationships between
 
 12 - <a href="https://www.researchgate.net/publication/383849770_Scalable_Fault_Tolerance_for_Microservices-Based_Systems">Scalable Fault Tolerance for Microservices-Based Systems</a>
 
-## History Log
 
-| Date              | Task Description                                                                                         | Contributor                   |
-| ----------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| 2025, April 6     | Discussion and selection of project ideas for MSA course project.                                        | Syed, Danish, Shahzad, Juraev |
-| 2025, April 6     | Finalized the idea of a hyperlocal delivery platform and created the GitHub repository.                  | Syed, Danish, Shahzad, Juraev |
-| 2025, April 6     | Drafted 150-word and 250-word project descriptions for GitHub and course use.                            | Syed, Danish, Shahzad, Juraev |
-| 2025, April 15    | Created system overview diagram and written explanation of the system architecture.                      | Syed, Shahzad                 |
-| 2025, April 15    | Stakeholder analysis and identifying stakeholders' key concerns (quality attributes)                     | Syed, Danish, Shahzad         |
-| 2025, April 15    | Writing of functional requirements and quality attributes.                                               | Syed, Danish, Juraev          |
-| 2025, May 05      | Created Use case diagram and context diagram to provide the use case view of the architecture.           | Syed, Danish, Shahzad, Juraev |
-| 2025, May 05      | Created the system sequence diagram to show the process view of the system.                              | Syed, Shahzad                 |
-| 2025, May 07      | Created the mid-fidelity design of the system to show the usability view of the system.                  | Syed, Danish                  |
-| 2025, May 07      | Listed the key architecture decisions, how it addresses the quality attributes and potential trade-offs. | Syed, Danish, Shahzad, Juraev |
-| 2025, May 15      | Created the mid-fidelity design of the system to show the usability view of the system.                  | Syed, Danish                  |
-| 2025, May 21      | Created the diagrams for architectural patterns used in the project.                                     | Syed, Shahzad, Danish         |
-| 2025, May 23      | provided architectural decisions in proper format and provided alternative solutions.                    | Syed, Shahzad,Juraev          |
-| 2025, May 25      | Identified relationships among decisions and drawn decision space diagram.                               | Syed, Danish, Shahzad         |
-| 2025, May June 1  | Redesigned the Context diagram and improve it's explanation                                              | Syed, Danish, Juraev          |
-| 2025, May June 5  | Redesigned the MVC pattern diagram and added explanation in the context of our project.                  | Syed, Shahzad, Danish         |
-| 2025, May June 15 | Improved the microservices diagram and added it to the development view                                  | Syed, Shahzad, Juraev         |
-| 2025, May June 16 | Provided examples of relationships among decisions and improved decision space diagram.                  | Syed, Danish, Shahzad         |
 
  -->
