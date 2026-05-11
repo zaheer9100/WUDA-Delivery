@@ -70,7 +70,7 @@ The platform emphasizes ease of use, responsiveness, and seamless interactions a
 
 Overall, this system supports the growing demand for convenient, reliable, and locally focused delivery services, fostering stronger connections between neighborhood vendors and their surrounding communities.
 
-<!--## 2. Features
+## 2. Features
 
 - **Customer Mobile Interface:**
   - Browse local vendors and food points.
@@ -329,7 +329,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 - The project follows the **Model-View-Controller (MVC)** design pattern, promoting modularity and separation of concerns, which improves maintainability by making it easier to update individual components.
 - Additionally, the use of **ORM (Object-Relational Mapping)** for database interaction reduces boilerplate code, enhancing the ease of making future database changes.
-
+<!--
 ## 7. Architectural Views
 
 ### <a id="7-1-context-viewpoint"></a> 7.1 Context Viewpoint
