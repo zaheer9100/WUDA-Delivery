@@ -329,7 +329,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 - The project follows the **Model-View-Controller (MVC)** design pattern, promoting modularity and separation of concerns, which improves maintainability by making it easier to update individual components.
 - Additionally, the use of **ORM (Object-Relational Mapping)** for database interaction reduces boilerplate code, enhancing the ease of making future database changes.
-<!--
+
 ## 7. Architectural Views
 
 ### <a id="7-1-context-viewpoint"></a> 7.1 Context Viewpoint
@@ -346,6 +346,7 @@ The `Context Diagram` below shows how external entities, such as users and exter
   <em> Figure 2: Context view of the system showing the interaction of external entities with our system</em>
 </div>
 
+<!--
 ### <a id="7-2-use-case-viewpoint"></a> 7.2 Use Case Viewpoint
 
 The Use Case Viewpoint captures the primary ways different users (customers, vendors, and delivery agents) interact with the delivery platform to achieve their goals. It outlines the major functionalities the system must support, such as browsing vendors, placing orders, tracking deliveries, managing inventory, and updating order statuses. This viewpoint helps in understanding user requirements clearly by focusing on user-system interactions and ensures that the system is designed around real-world activities and expectations of its stakeholders.
