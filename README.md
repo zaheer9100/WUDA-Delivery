@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Project Description](#1-project-description)
-<!--  2. [Features](#2-features)
+2.   2. [Features](#2-features)
 3. [System Overview](#3-system-overview)
 4. [Stakeholder Analysis](#4-stakeholder-analysis)
 5. [Functional Requirements](#5-functional-requirements)
@@ -14,6 +14,8 @@
    - 7.2 [Use Case Viewpoint](#7-2-use-case-viewpoint)
    - 7.3 [Process Viewpoint](#7-3-process-viewpoint)
    - 7.4 [Development Viewpoint](#7-4-development-viewpoint)
+
+<!--
 8. [Usability](#8-usability-viewpoint)
 9. [Architectural Patterns Used in the Project](#9-architectural-patterns-used-in-the-project)
    - 9.1 [Microservices Architecture](#9-1-microservices-architecture)
