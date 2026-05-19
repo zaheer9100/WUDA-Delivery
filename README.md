@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. [Project Description](#1-project-description)
-2.   2. [Features](#2-features)
+2. [Features](#2-features)
 3. [System Overview](#3-system-overview)
 4. [Stakeholder Analysis](#4-stakeholder-analysis)
 5. [Functional Requirements](#5-functional-requirements)
