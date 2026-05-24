@@ -11,32 +11,34 @@
 6. [Quality Attributes](#6-quality-attributes-and-key-stakeholder-concerns)
 7. [Architectural Views](#7-architectural-views)
    - 7.1 [Context Viewpoint](#7-1-context-viewpoint)
+<!--
    - 7.2 [Use Case Viewpoint](#7-2-use-case-viewpoint)
    - 7.3 [Process Viewpoint](#7-3-process-viewpoint)
    - 7.4 [Development Viewpoint](#7-4-development-viewpoint)
-
+-->
 <!--
 8. [Usability](#8-usability-viewpoint)
 9. [Architectural Patterns Used in the Project](#9-architectural-patterns-used-in-the-project)
    - 9.1 [Microservices Architecture](#9-1-microservices-architecture)
    - 9.2 [Model-View-Controller (MVC) Pattern](#9-2-model-view-controller-mvc-pattern)
    - 9.3 [RESTful API Pattern](#9-3-restful-api-pattern)
-10. [Key Architectural Decisions](#10-key-architectural-decisions-to-address-quality-attributes)
+-->
+8. [Key Architectural Decisions](#10-key-architectural-decisions-to-address-quality-attributes)
+   - 8.1  [Component-based SPA Architecture](#10-1-component-based-spa-architecture)
+   - 8.2  [Minimalist Modern Design](#10-2-minimalist-modern-design)
+   - 8.3  [React Native for Mobile](#10-3-react-native-for-mobile)
+   - 8.4  [Microservices with REST/JSON](#10-4-microservices-with-rest-json)
+   - 8.5  [SQLite Local Storage](#10-5-sqlite-local-storage)
+   - 8.6  [Kubernetes Orchestration](#10-6-kubernetes-orchestration)
+   - 8.7  [Lazy Loading](#10-7-lazy-loading)
+   - 8.8  [Multi-DB Deployment](#10-8-multi-db-deployment)
+   - 8.9  [Microservices Isolation](#10-9-microservices-isolation)
+   - 8.10  [Horizontal Microservices Scaling](#10-10-horizontal-microservices-scaling)
+   - 8.11  [Stateless APIs](#10-11-stateless-apis)
+   - 8.12  [MVC with ORM](#10-12-mvc-with-orm)
+   - 8.13  [React Native Unified Codebase](#10-13-react-native-unified-codebase)
 
-- 10.1  [Component-based SPA Architecture](#10-1-component-based-spa-architecture)
-- 10.2  [Minimalist Modern Design](#10-2-minimalist-modern-design)
-- 10.3  [React Native for Mobile](#10-3-react-native-for-mobile)
-- 10.4  [Microservices with REST/JSON](#10-4-microservices-with-rest-json)
-- 10.5  [SQLite Local Storage](#10-5-sqlite-local-storage)
-- 10.6  [Kubernetes Orchestration](#10-6-kubernetes-orchestration)
-- 10.7  [Lazy Loading](#10-7-lazy-loading)
-- 10.8  [Multi-DB Deployment](#10-8-multi-db-deployment)
-- 10.9  [Microservices Isolation](#10-9-microservices-isolation)
-- 10.10  [Horizontal Microservices Scaling](#10-10-horizontal-microservices-scaling)
-- 10.11  [Stateless APIs](#10-11-stateless-apis)
-- 10.12  [MVC with ORM](#10-12-mvc-with-orm)
-- 10.13  [React Native Unified Codebase](#10-13-react-native-unified-codebase)
-
+<!--
 1. [Relationship between identified architecture design decisions](#11-Relationship-between-identified-architecture-design-decisions)
 2. [References](#12-References)
 3. [Revision History](#history-log)
@@ -124,7 +126,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 - **Competing Delivery Platforms:** These established players may see our hyperlocal model as a threat, especially since we focus on small vendors within a 3-mile radius. They could respond by lowering fees, offering exclusive vendor contracts, or lobbying for regulations that disadvantage smaller platforms. This could limit our vendor partnerships and customer base.
 - **Traditional Brick-and-Mortar Retailers (Not on the Platform):** Local stores that choose not to join our platform may lose business to competitors who offer delivery. They might discourage customers from using our service, form alliances to exclude us, or resist digital adoption, reducing the variety of vendors available on our system.
 - **Neighborhood Residents (Non-Customers):** Increased delivery traffic (e.g., bikes, scooters) may cause noise, parking issues, or safety concerns in residential areas. Residents could complain to local officials, leading to delivery restrictions or negative publicity that harms our platform’s reputation.
-<!--
+
 ## 5. Functional Requirements
 
 ### <a id="5.1-customer-requirements"></a> 5.1 Customer Requirements
@@ -232,7 +234,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 - The agent shall be able to update the delivery status
 - The agent shall be able to collect customer signatures
 - The agent shall be able to mark orders as delivered
--->
+  
 ## 6. Quality Attributes and Key Stakeholder Concerns
 
 | **Stakeholder**     | **Key Concerns**                                                                                         | **Relevant Quality Attributes** |
@@ -243,7 +245,7 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 | **Product Owner**   | The system architecture should support easy scaling  and work across multiple devices.                   | Scalability                     |
 | **Developers**      | Codebase should be maintainable, allowing for easy updates, improvements, and issue resolution.          | Maintainability                 |
 
-<!--
+
 ### 6.1. **Usability**
 
  **Stakeholder**: Customers, Delivery Agents\
@@ -332,7 +334,6 @@ While our hyperlocal delivery platform provides value to customers, vendors, and
 
 - The project follows the **Model-View-Controller (MVC)** design pattern, promoting modularity and separation of concerns, which improves maintainability by making it easier to update individual components.
 - Additionally, the use of **ORM (Object-Relational Mapping)** for database interaction reduces boilerplate code, enhancing the ease of making future database changes.
--->
 
 ## 7. Architectural Views
 
@@ -487,7 +488,7 @@ We also used the REST API architectural pattern, which is based on stateless com
   <br>
   <em> Figure 10: RESTful API pattern used in Hyperlocal delivery system</em>
 </div>
-
+-->
 ## 10. Key Architectural Decisions to Address Quality Attributes
 
 ### <a id="10-1-component-based-spa-architecture"></a> 10.1 Component-based SPA Architecture
@@ -624,11 +625,14 @@ We also used the REST API architectural pattern, which is based on stateless com
 
 <a id="#11-architectural-decisions-relationships"></a> <a id="figure-8-relationship"></a>
 
+<!--
 <div align="center">
  <img src="./relation.jpg" alt="Context Diagram" width="900"/>
   <br>
   <em> Figure 11: Relationship between key architectural decisions.</em>
 </div>
+-->
+
 We have provided the alternate competing solutions and the relationships between the key architectural decisions in Figure 12. This diagram is drawn to show the architectural decisions in the design space tree diagram. This diagram shows that the architectural decisions are not independent but are related to each other. Below, we provide a few examples to explain this:
 
 #### Relationship between microservices architecture, API Gateway, and RESTful APIs
@@ -653,7 +657,7 @@ We have provided the alternate competing solutions and the relationships between
 
 - Because we chose React Native for mobile apps, we needed local data storage, leading to the decision to use SQLite.
 - Without React Native (e.g., if we used a pure web app), SQLite would be irrelevant—alternatives like IndexedDB (web) might apply.
-
+<!--
 ## 12. References
 
 1 - <a href="https://dl.acm.org/doi/abs/10.1145/3106237.3121282">Reflections on the REST architectural style and principled design of the modern web architecture</a>
