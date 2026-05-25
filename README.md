@@ -37,10 +37,10 @@
    - 8.11  [Stateless APIs](#10-11-stateless-apis)
    - 8.12  [MVC with ORM](#10-12-mvc-with-orm)
    - 8.13  [React Native Unified Codebase](#10-13-react-native-unified-codebase)
-
+ <!--
 
 1. [Relationship between identified architecture design decisions](#11-Relationship-between-identified-architecture-design-decisions)
-   <!--
+  
 3. [References](#12-References)
 4. [Revision History](#history-log)
 5. [Figures](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
