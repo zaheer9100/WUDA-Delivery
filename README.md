@@ -38,12 +38,12 @@
    - 8.12  [MVC with ORM](#10-12-mvc-with-orm)
    - 8.13  [React Native Unified Codebase](#10-13-react-native-unified-codebase)
 
-<!--
+
 1. [Relationship between identified architecture design decisions](#11-Relationship-between-identified-architecture-design-decisions)
 2. [References](#12-References)
 3. [Revision History](#history-log)
 4. [Figures](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
-
+<!--
 - 13.1 [Figure 1: System Overview](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
 - 13.2 [Figure 2: Context Diagram](#figure-2-context-view-of-the-system-showing-the-interaction-of-external-entities-with-our-system)
 - 13.3 [Figure 3: Use Case Diagram](#figure-3-use-case-diagram-demonstrating-the-use-cases-for-vendor-customer-and-delivery-agent)
