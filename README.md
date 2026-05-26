@@ -349,7 +349,7 @@ The `Context Diagram` below shows how external entities, such as users and exter
 <a id="figure-2-context-view-of-the-system-showing-the-interaction-of-external-entities-with-our-system"></a>
 
 <div align="center">
- <img src="./context.jpg" alt="Context Diagram" width="700"/>
+ <img src="./Context Diagram.pdf" alt="Context Diagram" width="700"/>
   <br>
   <em> Figure 2: Context view of the system showing the interaction of external entities with our system</em>
 </div>
