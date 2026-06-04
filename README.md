@@ -11,18 +11,18 @@
 6. [Quality Attributes](#6-quality-attributes-and-key-stakeholder-concerns)
 7. [Architectural Views](#7-architectural-views)
    - 7.1 [Context Viewpoint](#7-1-context-viewpoint)
-<!--
+
    - 7.2 [Use Case Viewpoint](#7-2-use-case-viewpoint)
    - 7.3 [Process Viewpoint](#7-3-process-viewpoint)
    - 7.4 [Development Viewpoint](#7-4-development-viewpoint)
--->
-<!--
+
+
 8. [Usability](#8-usability-viewpoint)
 9. [Architectural Patterns Used in the Project](#9-architectural-patterns-used-in-the-project)
    - 9.1 [Microservices Architecture](#9-1-microservices-architecture)
    - 9.2 [Model-View-Controller (MVC) Pattern](#9-2-model-view-controller-mvc-pattern)
    - 9.3 [RESTful API Pattern](#9-3-restful-api-pattern)
--->
+
 8. [Key Architectural Decisions](#8-key-architectural-decisions-to-address-quality-attributes)
    - 8.1  [Component-based SPA Architecture](#8-1-component-based-spa-architecture)
    - 8.2  [Minimalist Modern Design](#8-2-minimalist-modern-design)
@@ -38,7 +38,7 @@
    - 8.12  [MVC with ORM](#8-12-mvc-with-orm)
    - 8.13  [React Native Unified Codebase](#8-13-react-native-unified-codebase)
 9. [Relationship between identified architecture design decisions](#9-Relationship-between-identified-architecture-design-decisions)
- <!--
+ 
 
 
   
@@ -57,7 +57,7 @@
 - 13.9 [Figure 9: MVC pattern](#figure-10-mvc-pattern-of-hyperlocal-delivery-system)
 - 13.10 [Figure 10: RESTful API](#figure-11-rest-pattern-of-hyperlocal-delivery-system)
 - 13.11 [Figure 11: Key Architectural Decisions](#figure-8-relationship)
- -->
+ 
 
 ## Group Members
 
@@ -354,7 +354,7 @@ The `Context Diagram` below shows how external entities, such as users and exter
   <em> Figure 2: Context view of the system showing the interaction of external entities with our system</em>
 </div>
 
-<!--
+
 ### <a id="7-2-use-case-viewpoint"></a> 7.2 Use Case Viewpoint
 
 The Use Case Viewpoint captures the primary ways different users (customers, vendors, and delivery agents) interact with the delivery platform to achieve their goals. It outlines the major functionalities the system must support, such as browsing vendors, placing orders, tracking deliveries, managing inventory, and updating order statuses. This viewpoint helps in understanding user requirements clearly by focusing on user-system interactions and ensures that the system is designed around real-world activities and expectations of its stakeholders.
@@ -490,7 +490,7 @@ We also used the REST API architectural pattern, which is based on stateless com
   <br>
   <em> Figure 10: RESTful API pattern used in Hyperlocal delivery system</em>
 </div>
--->
+
 ## 8. Key Architectural Decisions to Address Quality Attributes
 
 ### <a id="8-1-component-based-spa-architecture"></a> 8.1 Component-based SPA Architecture
@@ -627,16 +627,16 @@ We also used the REST API architectural pattern, which is based on stateless com
 
 <a id="#11-architectural-decisions-relationships"></a> <a id="figure-8-relationship"></a>
 
-<!--
+
 <div align="center">
  <img src="./relation.jpg" alt="Context Diagram" width="900"/>
   <br>
   <em> Figure 11: Relationship between key architectural decisions.</em>
 </div>
--->
-<!--
+
+
 We have provided the alternate competing solutions and the relationships between the key architectural decisions in Figure 12. This diagram is drawn to show the architectural decisions in the design space tree diagram. This diagram shows that the architectural decisions are not independent but are related to each other. Below, we provide a few examples to explain this:
--->
+
 #### Relationship between microservices architecture, API Gateway, and RESTful APIs
 
 - We chose to use the microservices architectural style, and because of this decision, we also had to decide how to handle data communication and access to the microservices.
@@ -659,7 +659,7 @@ We have provided the alternate competing solutions and the relationships between
 
 - Because we chose React Native for mobile apps, we needed local data storage, leading to the decision to use SQLite.
 - Without React Native (e.g., if we used a pure web app), SQLite would be irrelevant—alternatives like IndexedDB (web) might apply.
-<!--
+
 ## 12. References
 
 1 - <a href="https://dl.acm.org/doi/abs/10.1145/3106237.3121282">Reflections on the REST architectural style and principled design of the modern web architecture</a>
@@ -688,4 +688,4 @@ We have provided the alternate competing solutions and the relationships between
 
 
 
- -->
+ 
