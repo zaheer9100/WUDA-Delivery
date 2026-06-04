@@ -42,8 +42,8 @@
 
 
   
-3. [References](#12-References)
-4. [Revision History](#history-log)
+
+
 5. [Figures](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
 
 - 13.1 [Figure 1: System Overview](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
@@ -660,32 +660,3 @@ We have provided the alternate competing solutions and the relationships between
 - Because we chose React Native for mobile apps, we needed local data storage, leading to the decision to use SQLite.
 - Without React Native (e.g., if we used a pure web app), SQLite would be irrelevant—alternatives like IndexedDB (web) might apply.
 
-## 12. References
-
-1 - <a href="https://dl.acm.org/doi/abs/10.1145/3106237.3121282">Reflections on the REST architectural style and principled design of the modern web architecture</a>
-
-2 - <a href="https://www.sciencedirect.com/science/article/pii/S0950584920301993">Understanding and addressing quality attributes of microservices architecture: A Systematic literature review</a>
-
-3 - <a href="https://ieeexplore.ieee.org/abstract/document/950428">Flexible Self-Management Using the Model-View-Controller Pattern</a>
-
-4 - <a href="https://ieeexplore.ieee.org/abstract/document/4497770">Web-application development using the Model/View/Controller design pattern</a>
-
-5 - <a href="https://www.researchgate.net/publication/383413476_Comparative_Analysis_of_Microservices_and_Monolithic_Architectures_in_Cloud_Deployment">Comparative Analysis of Microservices and Monolithic Architectures in Cloud Deployment</a>
-
-6 - <a href="https://www.researchgate.net/publication/317637883_Microservices_Architecture_for_Cloud_Computing">Microservices Architecture for Cloud Computing</a>
-
-7 - <a href="https://learn.microsoft.com/en-us/entra/identity-platform/tutorial-single-page-app-react-prepare-app?tabs=workforce-tenant">Tutorial: Prepare a Single Page App with React for Azure AD Authentication</a>
-
-8 - <a href="https://www.researchgate.net/publication/334150777_Modern_Single_Page_Application_Architecture_A_Case_Study">Modern Single Page Application Architecture: A Case Study</a>
-
-9 - <a href="https://www.researchgate.net/publication/387762754_Microservices_Architecture_Using_Docker_and_Kubernetes">Microservices Architecture Using Docker and Kubernetes</a>
-
-10 - <a href="https://openliberty.io/docs/latest/rest-microservices.html">RESTful Microservices with Open Liberty</a>
-
-11 - <a href="https://www.researchgate.net/publication/338497042_Prospects_for_Using_React_Native_for_Developing_Cross-platform_Mobile_Applications">Prospects for Using React Native for Developing Cross-platform Mobile Applications</a>
-
-12 - <a href="https://www.researchgate.net/publication/383849770_Scalable_Fault_Tolerance_for_Microservices-Based_Systems">Scalable Fault Tolerance for Microservices-Based Systems</a>
-
-
-
- 
