@@ -389,7 +389,7 @@ The Development View focuses on the system’s internal structure from a develop
 <div align="center">
   <img src="./microservices.jpg" alt="Diagram" width="800">
   <br>
-  <em> Figure 5: Microservices diagram for WUDA-Delivery</em>
+  <em> Figure 4: Microservices diagram for WUDA-Delivery</em>
 </div>
 
 ### Architectural Component (microservices) Descriptions
@@ -426,7 +426,7 @@ We have adopted a minimalistic design to ensure that our system is easy to use a
 <div align="center">
   <img src="./Customer-2.png" alt="Diagram" width="1000">
   <br>
-  <em> Figure 6: Mid-fidelity design for customer mobile application</em>
+  <em> Figure 5: Mid-fidelity design for customer mobile application</em>
 </div>
 
 <a id="figure-7-mid-fidelity-design-for-delivery-agent-mobile-application"></a>
@@ -434,7 +434,7 @@ We have adopted a minimalistic design to ensure that our system is easy to use a
 <div align="center">
   <img src="./Agent.png" alt="Diagram" width="1000">
   <br>
-  <em> Figure 7: Mid-fidelity design for delivery agent mobile application</em>
+  <em> Figure 6: Mid-fidelity design for delivery agent mobile application</em>
 </div>
 
 <a id="figure-8-mid-fidelity-design-for-vendor-dashboard"></a>
@@ -442,7 +442,7 @@ We have adopted a minimalistic design to ensure that our system is easy to use a
 <div align="center">
  <img src="./vendor1.png" alt="Context Diagram" width="800"/>
   <br>
-  <em> Figure 8: Mid-fidelity design for Vendor Dashboard</em>
+  <em> Figure 7: Mid-fidelity design for Vendor Dashboard</em>
 </div>
 
 ## 9. Architectural Patterns Used in the Project
@@ -467,14 +467,14 @@ Upon receiving the requested data from the `Product Model`, the `Product Control
 
 **Quality attributes**: Maintainability.
 
-<a id="figure-10-mvc-pattern-of-WUDA-delivery"></a>
+<a id="figure-8-mvc-pattern-of-WUDA-delivery"></a>
 
 <div align="center">
  <img src="./mvc_pattern.jpg" alt="MVC pattern diagram" width="800"/>
   <br>
-  <em> Figure 9: MVC pattern used in WUDA-delivery</em>
+  <em> Figure 8: MVC pattern used in WUDA-delivery</em>
 </div>
-<a id="figure-10-mvc-pattern-of-WUDA-delivery"></a>
+<a id="figure-8-mvc-pattern-of-WUDA-delivery"></a>
 
 ### <a id="9-3-restful-api-pattern"></a> 9.3 REST architecture pattern
 
@@ -482,12 +482,12 @@ We also used the REST API architectural pattern, which is based on stateless com
 
 **Quality attributes**: Scalability and simplicity.
 
-<a id="figure-11-rest-pattern-of-WUDA-delivery"></a>
+<a id="figure-9-rest-pattern-of-WUDA-delivery"></a>
 
 <div align="center">
  <img src="./RESTgate.png" alt="REST API diagram" width="800"/>
   <br>
-  <em> Figure 10: RESTful API pattern used in WUDA-delivery</em>
+  <em> Figure 9: RESTful API pattern used in WUDA-delivery</em>
 </div>
 
 ## 10. Key Architectural Decisions to Address Quality Attributes
@@ -630,7 +630,7 @@ We also used the REST API architectural pattern, which is based on stateless com
 <div align="center">
  <img src="./relation.jpg" alt="Context Diagram" width="900"/>
   <br>
-  <em> Figure 11: Relationship between key architectural decisions.</em>
+  <em> Figure 10: Relationship between key architectural decisions.</em>
 </div>
 
 
