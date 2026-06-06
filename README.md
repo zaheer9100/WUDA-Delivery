@@ -11,10 +11,8 @@
 6. [Quality Attributes](#6-quality-attributes-and-key-stakeholder-concerns)
 7. [Architectural Views](#7-architectural-views)
    - 7.1 [Context Viewpoint](#7-1-context-viewpoint)
-
    - 7.2 [Use Case Viewpoint](#7-2-use-case-viewpoint)
-   - 7.3 [Process Viewpoint](#7-3-process-viewpoint)
-   - 7.4 [Development Viewpoint](#7-4-development-viewpoint)
+   - 7.3 [Development Viewpoint](#7-3-development-viewpoint)
 
 
 8. [Usability](#8-usability-viewpoint)
@@ -380,7 +378,8 @@ The System Sequence Diagram (SSD) below outlines the step-by-step interactions b
   <em> Figure 4: System Sequence Diagram to show interaction between Customer, Vendor, and Delivery Agent</em>
 </div>
 -->
-### <a id="7-4-development-viewpoint"></a> 7.4 Development Viewpoint
+
+### <a id="7-3-development-viewpoint"></a> 7. Development Viewpoint
 
 The Development View focuses on the system’s internal structure from a developer’s perspective. It describes how the software is organized in the codebase — such as modules, packages, layers, and components — and how they are built and managed. This view helps developers understand how to develop, maintain, and extend the system efficiently. It also covers aspects like version control, build processes, coding standards, and team organization.
 
