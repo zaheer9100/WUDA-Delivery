@@ -466,14 +466,14 @@ Upon receiving the requested data from the `Product Model`, the `Product Control
 
 **Quality attributes**: Maintainability.
 
-<a id="figure-10-mvc-pattern-of-hyperlocal-delivery-system"></a>
+<a id="figure-10-mvc-pattern-of-WUDA-delivery"></a>
 
 <div align="center">
  <img src="./mvc_pattern.jpg" alt="MVC pattern diagram" width="800"/>
   <br>
-  <em> Figure 9: MVC pattern used in Hyperlocal delivery system</em>
+  <em> Figure 9: MVC pattern used in WUDA-delivery</em>
 </div>
-<a id="figure-10-mvc-pattern-of-hyperlocal-delivery-system"></a>
+<a id="figure-10-mvc-pattern-of-WUDA-delivery"></a>
 
 ### <a id="9-3-restful-api-pattern"></a> 9.3 REST architecture pattern
 
