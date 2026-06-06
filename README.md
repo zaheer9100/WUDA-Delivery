@@ -440,7 +440,7 @@ We have adopted a minimalistic design to ensure that our system is easy to use a
 <a id="figure-8-mid-fidelity-design-for-vendor-dashboard"></a>
 
 <div align="center">
- <img src="./vendor.png" alt="Context Diagram" width="800"/>
+ <img src="./vendor1.png" alt="Context Diagram" width="800"/>
   <br>
   <em> Figure 8: Mid-fidelity design for Vendor Dashboard</em>
 </div>
