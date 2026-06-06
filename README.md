@@ -366,7 +366,7 @@ The Use Case Viewpoint captures the primary ways different users (customers, ven
   <br>
   <em> Figure 3: Use case diagram demonstrating the use cases for vendor, customer and delivery agent</em>
 </div>
-
+<!--
 ### <a id="7-3-process-viewpoint"></a> 7.3 Process Viewpoint
 
 The Process Viewpoint focuses on the system’s dynamic behavior and describes how different parts of the system interact at runtime to achieve specific tasks. It models processes such as order placement, payment handling, delivery tracking, and inventory updates, often showing how components communicate, synchronize, and handle concurrent activities. In this delivery platform, the process view ensures smooth coordination between customers, vendors, and delivery agents by managing workflows like order processing, delivery assignment, and real-time status updates.
@@ -380,7 +380,7 @@ The System Sequence Diagram (SSD) below outlines the step-by-step interactions b
   <br>
   <em> Figure 4: System Sequence Diagram to show interaction between Customer, Vendor, and Delivery Agent</em>
 </div>
-
+-->
 ### <a id="7-4-development-viewpoint"></a> 7.4 Development Viewpoint
 
 The Development View focuses on the system’s internal structure from a developer’s perspective. It describes how the software is organized in the codebase — such as modules, packages, layers, and components — and how they are built and managed. This view helps developers understand how to develop, maintain, and extend the system efficiently. It also covers aspects like version control, build processes, coding standards, and team organization.
