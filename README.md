@@ -481,12 +481,12 @@ We also used the REST API architectural pattern, which is based on stateless com
 
 **Quality attributes**: Scalability and simplicity.
 
-<a id="figure-11-rest-pattern-of-hyperlocal-delivery-system"></a>
+<a id="figure-11-rest-pattern-of-WUDA-delivery"></a>
 
 <div align="center">
  <img src="./RESTgate.png" alt="REST API diagram" width="800"/>
   <br>
-  <em> Figure 10: RESTful API pattern used in Hyperlocal delivery system</em>
+  <em> Figure 10: RESTful API pattern used in WUDA-delivery</em>
 </div>
 
 ## 10. Key Architectural Decisions to Address Quality Attributes
