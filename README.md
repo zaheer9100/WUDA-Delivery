@@ -42,7 +42,7 @@
 
 
   
-
+<!--
 
 5. [Figures](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
 
@@ -57,7 +57,7 @@
 - 13.10 [Figure 10: RESTful API](#figure-11-rest-pattern-of-hyperlocal-delivery-system)
 - 13.11 [Figure 11: Key Architectural Decisions](#figure-8-relationship)
  
-
+-->
 ## Group Members
 
 1. KHAN MUHAMMAD ZAHEER
