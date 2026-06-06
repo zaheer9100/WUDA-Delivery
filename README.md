@@ -384,12 +384,12 @@ The System Sequence Diagram (SSD) below outlines the step-by-step interactions b
 
 The Development View focuses on the system’s internal structure from a developer’s perspective. It describes how the software is organized in the codebase — such as modules, packages, layers, and components — and how they are built and managed. This view helps developers understand how to develop, maintain, and extend the system efficiently. It also covers aspects like version control, build processes, coding standards, and team organization.
 
-<a id="figure-5-component-view-of-hyperlocal-delivery-system"></a>
+<a id="figure-5-component-view-of-WUDA-Delivery"></a>
 
 <div align="center">
   <img src="./microservices.jpg" alt="Diagram" width="800">
   <br>
-  <em> Figure 5: Microservices diagram for hyperlocal delivery system</em>
+  <em> Figure 5: Microservices diagram for WUDA-Delivery</em>
 </div>
 
 ### Architectural Component (microservices) Descriptions
