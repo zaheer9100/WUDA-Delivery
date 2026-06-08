@@ -660,7 +660,7 @@ We also used the REST API architectural pattern, which is based on stateless com
 </div>
 
 
-We have provided the alternate competing solutions and the relationships between the key architectural decisions in Figure 12. This diagram is drawn to show the architectural decisions in the design space tree diagram. This diagram shows that the architectural decisions are not independent but are related to each other. Below, we provide a few examples to explain this:
+We have provided the alternate competing solutions and the relationships between the key architectural decisions in Figure 10. This diagram is drawn to show the architectural decisions in the design space tree diagram. This diagram shows that the architectural decisions are not independent but are related to each other. Below, we provide a few examples to explain this:
 
 #### Relationship between microservices architecture, API Gateway, and RESTful APIs
 
