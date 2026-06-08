@@ -637,17 +637,17 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Summary**: MVC with ORM was chosen for its maintainability; MVVM, micro-ORMs/raw SQL are alternatives but increase manual work.
 
 ### <a id="10-13-react-native-unified-codebase"></a> 10.13 React Native Unified Codebase
-
-- **Issue**: Maintaining separate iOS and Android codebases leads to duplication of work.
-- **Rationale**: React Native allows sharing most of the code, reducing maintenance and delivery effort.
-- **Benefits**: Single codebase, faster bug fixes, unified CI/CD pipeline.
-- **Limitations**: Limited access to certain native modules, may need custom bridging.
-- **Quality attributes**: Maintainability.
-- **Pros**: Reduces maintenance effort with a single shared codebase for both platforms.
-- **Cons**: Some platform-specific features may require custom native modules.
-- **Alternative Solutions**: Use **Flutter** for even more unified code or **native development** for full control.
-- **Summary**: React Native chosen for simplicity and shared code; Flutter and native were considered but add complexity.
-
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Issue**                 | Maintaining separate iOS and Android codebases leads to duplication of work.                                |
+| **Rationale**             | React Native allows sharing most of the code, reducing maintenance and delivery effort.                     |
+| **Benefits**              | Single codebase, faster bug fixes, unified CI/CD pipeline.                                                  |
+| **Limitations**           | Limited access to certain native modules, may need custom bridging.                                         |
+| **Quality attributes**    | Maintainability.                                                                                            |
+| **Pros**:                 | Reduces maintenance effort with a single shared codebase for both platforms.                                |
+| **Cons**:                 | Some platform-specific features may require custom native modules.                                          |
+| **Alternative Solutions** | Use **Flutter** for even more unified code or **native development** for full control.                      |
+| **Summary**               | React Native chosen for simplicity and shared code; Flutter and native were considered but add complexity.  |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
 ## 11. Relationship between identified architecture design decisions
 
 <a id="#11-architectural-decisions-relationships"></a> <a id="figure-8-relationship"></a>
