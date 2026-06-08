@@ -499,6 +499,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Smooth user experience with no full-page reloads; consistent design language throughout the app.
 - **Limitations**: Requires more complex client-side state management (e.g., Redux) and might affect initial load time.
 - **Quality attributes**: Usability and performance.
+- **Pros**: Provides smooth navigation and reusable UI components for better user experience.
+- **Cons**: Requires complex state management and may increase initial load time.
 - **Alternative Solutions**: Use server-side rendering (SSR) frameworks like **Next.js** to balance performance and interactivity.
 - **Summary**: We chose SPA with React for its seamless UX and performance. SSR was considered but offers less client-side interactivity.
 
@@ -509,6 +511,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Users can complete tasks faster due to intuitive layouts and familiar interaction patterns.
 - **Limitations**: Risk of oversimplifying features or omitting necessary visual cues.
 - **Quality attributes**: Usability.
+- **Pros**: Reduces cognitive load and improves usability with a clean interface.
+- **Cons**: May oversimplify features or hide important visual cues.
 - **Alternative Solutions**: Employ **user-centered design (UCD)** or participatory design to balance simplicity and features.
 - **Summary**: Minimalist design was preferred for its clarity; UCD was considered but adds complexity in rapid delivery.
 
@@ -519,6 +523,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Consistent behavior across platforms, reduced development effort, access to native gestures and animations.
 - **Limitations**: May encounter limitations in accessing low-level native APIs; requires bridging in some cases.
 - **Quality attributes**: Scalability, maintianability.
+- **Pros**: Enables cross-platform development with a shared codebase and lower cost.
+- **Cons**: Limited access to some native APIs may require additional bridging.
 - **Alternative Solutions**: Use **Flutter** for high-performance cross-platform development or native development for full control.
 - **Summary**: React Native chosen for its balance of cost, performance, and developer familiarity; Flutter or native could add overhead.
 
@@ -529,6 +535,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Independent scaling, improved fault isolation, reduced data transfer size.
 - **Limitations**: Increased complexity in managing service boundaries and deployments.
 - **Quality attributes**: Performance, scalability.
+- **Pros**: Improves scalability and fault isolation through independent services.
+- **Cons**: Increases deployment and service management complexity.
 - **Alternative Solutions**: Use **GraphQL** to optimize API communication or **gRPC** for higher performance.
 - **Summary**: REST/JSON was selected for simplicity and wide compatibility; GraphQL or gRPC were considered but are heavier solutions.
 
@@ -539,6 +547,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Improved load times, reduced mobile data usage, offline functionality.
 - **Limitations**: Risk of stale data if synchronization is not managed properly.
 - **Quality attributes**: Performance.
+- **Pros**: Enhances performance by enabling offline access and reducing API calls.
+- **Cons**: Cached data may become outdated without proper synchronization.
 - **Alternative Solutions**: Use **AsynStorage** or **Realm DB (for mobile)** for more advanced local data management.
 - **Summary**: SQLite was chosen for simplicity; Realm offer more features but add complexity.
 
@@ -549,6 +559,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: High availability, automatic scaling, fault tolerance, and load balancing.
 - **Limitations**: Steep learning curve, additional overhead for managing Kubernetes clusters.
 - **Quality attributes**: Performance, availability.
+- **Pros**: Provides automated scaling, self-healing, and high availability.
+- **Cons**: Has a steep learning curve and adds infrastructure overhead.
 - **Alternative Solutions**: Use **serverless architectures** (e.g., AWS Lambda) or **Docker Swarm**.
 - **Summary**: Kubernetes was chosen for robust orchestration; simpler alternatives were considered but lacked required capabilities.
 
@@ -559,6 +571,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Faster initial page loads, reduced server bandwidth.
 - **Limitations**: Possible delays in loading deferred resources when needed.
 - **Quality attributes**: Performance.
+- **Pros**: Reduces initial page load time and improves perceived performance.
+- **Cons**: Deferred resources may load slowly when first accessed.
 - **Alternative Solutions**: Implement **critical resources** and prioritized loading, or use **CDN edge caching**.
 - **Summary**: Lazy loading provides direct benefits with minimal complexity; CDN strategies are good but secondary.
 
@@ -569,6 +583,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: High availability, resilience to regional failures, and distributed reads.
 - **Limitations**: Increased complexity in replication and consistency management.
 - **Quality attributes**: Availability.
+- **Pros**: Ensures high availability and resilience through database replication.
+- **Cons**: Replication and consistency management increase system complexity.
 - **Alternative Solutions**: Use managed distributed databases like **Amazon Aurora Global** or **Google Cloud Spanner**.
 - **Summary**: Multi-DB replication was chosen for control and resilience; managed solutions were considered, but they add vendor lock-in.
 
@@ -579,6 +595,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: One service failure (e.g., payments) does not affect others (e.g., product catalog).
 - **Limitations**: Requires robust inter-service communication and monitoring.
 - **Quality attributes**: Availability.
+- **Pros**: Prevents failures in one service from affecting the entire system.
+- **Cons**: Requires advanced monitoring and reliable inter-service communication.
 - **Alternative Solutions**: Use **modular monolith**.
 - **Summary**: Service isolation chosen for clear fault boundaries; modular monolith is simpler but less scalable.
 
@@ -589,6 +607,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Scalability with predictable performance.
 - **Limitations**: Requires effective load balancing and monitoring.
 - **Quality attributes**: Scalability.
+- **Pros**: Handles increasing workloads by distributing traffic across instances.
+- **Cons**: Requires effective load balancing and infrastructure monitoring.
 - **Alternative Solutions**: Use **serverless functions** for automatic scaling without managing infrastructure.
 - **Summary**: Horizontal scaling offers predictable control; serverless functions were considered but have cold start penalties.
 
@@ -599,6 +619,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Easy horizontal scaling, reduced complexity.
 - **Limitations**: Requires external session management (e.g., Redis) if needed.
 - **Quality attributes**: Scalability.
+- **Pros**: Simplifies scaling and load balancing by removing session dependency.
+- **Cons**: Requires external session management solutions when sessions are needed.
 - **Alternative Solutions**: Use **web sockets**.
 - **Summary**: Stateless APIs are chosen for their simplicity; web sockets add complexity and are suitable for real-time applications.
 
@@ -609,6 +631,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Clean code structure, reduced development overhead, version-controlled schema changes.
 - **Limitations**: ORM can introduce performance overhead for complex queries.
 - **Quality attributes**: Maintainability.
+- **Pros**: Improves maintainability through separation of concerns and cleaner code structure.
+- **Cons**: ORM may reduce performance for complex database queries.
 - **Alternative Solutions**: Use MVVM (Model-View-ViewModel) or **micro-ORMs like Dapper** or raw SQL for performance-critical parts.
 - **Summary**: MVC with ORM was chosen for its maintainability; MVVM, micro-ORMs/raw SQL are alternatives but increase manual work.
 
@@ -619,6 +643,8 @@ We also used the REST API architectural pattern, which is based on stateless com
 - **Benefits**: Single codebase, faster bug fixes, unified CI/CD pipeline.
 - **Limitations**: Limited access to certain native modules, may need custom bridging.
 - **Quality attributes**: Maintainability.
+- **Pros**: Reduces maintenance effort with a single shared codebase for both platforms.
+- **Cons**: Some platform-specific features may require custom native modules.
 - **Alternative Solutions**: Use **Flutter** for even more unified code or **native development** for full control.
 - **Summary**: React Native chosen for simplicity and shared code; Flutter and native were considered but add complexity.
 
