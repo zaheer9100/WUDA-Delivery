@@ -449,7 +449,7 @@ We have adopted a minimalistic design to ensure that our system is easy to use a
 
 ### <a id="9-1-microservices-architecture"></a> 9.1 Microservices Architecture
 
-Our system follows a microservices architecture style compared to a monolithic architecture, and we have a total of seven microservices. The three clients, 1) the Customer mobile app, 2) the Vendor dashboard, and 3) the Delivery agent mobile app, interact with the backend microservices through an API gateway. This interaction is stateless using RESTful APIs, and the communication between these microservices and the clients is through the JSON data format. Figure 5 shows the microservices architecture style of our system.
+Our system follows a microservices architecture style compared to a monolithic architecture, and we have a total of seven microservices. The three clients, 1) the Customer mobile app, 2) the Vendor dashboard, and 3) the Delivery agent mobile app, interact with the backend microservices through an API gateway. This interaction is stateless using RESTful APIs, and the communication between these microservices and the clients is through the JSON data format. Figure 4 shows the microservices architecture style of our system.
 
 **Quality attributes**: Availability, scalability, and maintainability.
 
