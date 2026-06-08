@@ -457,7 +457,7 @@ Our system follows a microservices architecture style compared to a monolithic a
 
 We have used Model-View-Controller (MVC) architecture patterns, which separate a system into three distinct components: the Model, which manages data logic; the View, which handles presentation and user interface; and the Controller, which processes input, invokes Model operations, and updates the View. This separation promotes modularity, ease of maintenance, and testability. By isolating business rules from the user interface, developers can work on different components simultaneously without introducing side effects. In server-side frameworks like Laravel, MVC enables clean, organized codebases where models represent database entities, views are templated frontends, and controllers serve as the business logic part.
 
-Figure 10 illustrates the application of the MVC pattern in our system architecture, demonstrated through the interaction between the Product Service and the customer mobile app. The implementation follows these key flows:
+Figure 8 illustrates the application of the MVC pattern in our system architecture, demonstrated through the interaction between the Product Service and the customer mobile app. The implementation follows these key flows:
 
 When a customer views product information through the mobile app (which serves as the View layer), the app initiates a request to fetch product data via RESTful APIs exposed by the `Product Service`. This request is first received by the `Products Controller`, which acts as the intermediary between the View and data operations.
 
