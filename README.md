@@ -48,12 +48,12 @@
 - 13.1 [Figure 1: System Overview](#figure-1-architecture-overview-diagram-showing-the-overview-of-system-architecture)
 - 13.2 [Figure 2: Context Diagram](#figure-2-context-view-of-the-system-showing-the-interaction-of-external-entities-with-our-system)
 - 13.3 [Figure 3: Use Case Diagram](#figure-3-use-case-diagram-demonstrating-the-use-cases-for-vendor-customer-and-delivery-agent)
-- 13.5 [Figure 5: Microservices Diagram](#figure-5-component-view-of-hyperlocal-delivery-system)
+- 13.5 [Figure 5: Microservices Diagram](#figure-5-component-view-of-WUDA-delivery)
 - 13.6 [Figure 6: Customer UI](#figure-6-mid-fidelity-design-for-customer-mobile-application)
 - 13.7 [Figure 7: Agent UI](#figure-7-mid-fidelity-design-for-delivery-agent-mobile-application)
 - 13.8 [Figure 8: Vendor Dashboard](#figure-8-mid-fidelity-design-for-vendor-dashboard)
-- 13.9 [Figure 9: MVC pattern](#figure-10-mvc-pattern-of-hyperlocal-delivery-system)
-- 13.10 [Figure 10: RESTful API](#figure-11-rest-pattern-of-hyperlocal-delivery-system)
+- 13.9 [Figure 9: MVC pattern](#figure-10-mvc-pattern-of-WUDA-delivery)
+- 13.10 [Figure 10: RESTful API](#figure-11-rest-pattern-of-WUDA-delivery)
 - 13.11 [Figure 11: Key Architectural Decisions](#figure-8-relationship)
  
 -->
@@ -109,7 +109,7 @@ We included the system's `Overview diagram` showing the system's end users. It s
 
 ## 4. Stakeholder Analysis
 
-The following are the primary stakeholders for this hyperlocal delivery platform. Each stakeholder influences the system design based on their specific needs and expectations:
+The following are the primary stakeholders for this WUDA-Delivery platform. Each stakeholder influences the system design based on their specific needs and expectations:
 
 ### Stakeholders
 
@@ -121,9 +121,9 @@ The following are the primary stakeholders for this hyperlocal delivery platform
 
 ### Negative Stakeholders
 
-While our hyperlocal delivery platform provides value to customers, vendors, and delivery agents, certain stakeholders may oppose or be negatively impacted by the system. Identifying these groups helps mitigate risks and ensures smoother adoption.
+While our WUDA-Delivery platform provides value to customers, vendors, and delivery agents, certain stakeholders may oppose or be negatively impacted by the system. Identifying these groups helps mitigate risks and ensures smoother adoption.
 
-- **Competing Delivery Platforms:** These established players may see our hyperlocal model as a threat, especially since we focus on small vendors within a 3-mile radius. They could respond by lowering fees, offering exclusive vendor contracts, or lobbying for regulations that disadvantage smaller platforms. This could limit our vendor partnerships and customer base.
+- **Competing Delivery Platforms:** These established players may see our WUDA model as a threat, especially since we focus on small vendors within a 3-mile radius. They could respond by lowering fees, offering exclusive vendor contracts, or lobbying for regulations that disadvantage smaller platforms. This could limit our vendor partnerships and customer base.
 - **Traditional Brick-and-Mortar Retailers (Not on the Platform):** Local stores that choose not to join our platform may lose business to competitors who offer delivery. They might discourage customers from using our service, form alliances to exclude us, or resist digital adoption, reducing the variety of vendors available on our system.
 - **Neighborhood Residents (Non-Customers):** Increased delivery traffic (e.g., bikes, scooters) may cause noise, parking issues, or safety concerns in residential areas. Residents could complain to local officials, leading to delivery restrictions or negative publicity that harms our platform’s reputation.
 
@@ -369,7 +369,7 @@ The Use Case Viewpoint captures the primary ways different users (customers, ven
 
 The Process Viewpoint focuses on the system’s dynamic behavior and describes how different parts of the system interact at runtime to achieve specific tasks. It models processes such as order placement, payment handling, delivery tracking, and inventory updates, often showing how components communicate, synchronize, and handle concurrent activities. In this delivery platform, the process view ensures smooth coordination between customers, vendors, and delivery agents by managing workflows like order processing, delivery assignment, and real-time status updates.
 
-The System Sequence Diagram (SSD) below outlines the step-by-step interactions between the key actors—Customer, Vendor, Delivery Agent—and the Hyperlocal Delivery Platform during an order's lifecycle. The process begins when the Customer browses nearby vendors, selects items, and confirms the order, prompting the System to process payment and notify the Vendor while assigning a Delivery Agent. Next, the Vendor updates inventory, confirms order acceptance, and marks it as ready for pickup, which triggers the System to alert the Delivery Agent and update the Customer on the order status. The Delivery Agent then accepts the request, picks up the order, and provides real-time updates as it moves through "En Route" to "Delivered," with the System relaying tracking information to the Customer. Finally, after delivery, the Customer submits feedback on the Vendor, products, and delivery experience, which the System records for analytics and service improvement. The diagram effectively captures the end-to-end workflow, highlighting real-time coordination, status updates, and seamless communication among all parties involved in the hyperlocal delivery process.
+The System Sequence Diagram (SSD) below outlines the step-by-step interactions between the key actors—Customer, Vendor, Delivery Agent—and the WUDA-Delivery Platform during an order's lifecycle. The process begins when the Customer browses nearby vendors, selects items, and confirms the order, prompting the System to process payment and notify the Vendor while assigning a Delivery Agent. Next, the Vendor updates inventory, confirms order acceptance, and marks it as ready for pickup, which triggers the System to alert the Delivery Agent and update the Customer on the order status. The Delivery Agent then accepts the request, picks up the order, and provides real-time updates as it moves through "En Route" to "Delivered," with the System relaying tracking information to the Customer. Finally, after delivery, the Customer submits feedback on the Vendor, products, and delivery experience, which the System records for analytics and service improvement. The diagram effectively captures the end-to-end workflow, highlighting real-time coordination, status updates, and seamless communication among all parties involved in the WUDA-Delivery process.
 
 <a id="figure-4-system-sequence-diagram-to-show-interaction-between-customer-vendor-and-delivery-agent"></a>
 
