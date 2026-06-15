@@ -393,7 +393,7 @@ The Development View focuses on the system’s internal structure from a develop
   <em> Figure 4: Microservices diagram for WUDA-Delivery</em>
 </div>
 
-### 7.4 Logic Viewpoint
+### <a id="7-4-logic-viewpoint"></a> 7.4 Logic Viewpoint
 
 The **Logic View** describes the system's internal structure from a **functional decomposition** perspective. It focuses on the key abstractions — classes, components, and layers — that make up the system and how they interact to deliver the system's functionality. This viewpoint is primarily intended for **developers** and **architects** to understand the responsibilities of each logical component and how the system is organized into layers to support separation of concerns.
 
