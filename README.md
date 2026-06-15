@@ -443,7 +443,7 @@ The upper layers depend on this layer through interfaces, keeping the domain log
 
 The diagram below shows how these four layers are organized and how dependencies flow strictly downward — the Presentation Layer calls the Application Layer, which calls the Domain Layer, which interacts with the Infrastructure Layer. This ensures that business logic remains decoupled from UI concerns and external system details.
 
-![Logic View Diagram](logic_view.png)
+![Logic View Diagram](logic_view_diagram.png)
 *Figure X: Logic view showing the four-layer architecture with key classes and their layer responsibilities*
 
 ### Architectural Component (microservices) Descriptions
