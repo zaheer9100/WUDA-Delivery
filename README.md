@@ -392,6 +392,59 @@ The Development View focuses on the system’s internal structure from a develop
   <em> Figure 4: Microservices diagram for WUDA-Delivery</em>
 </div>
 
+### 7.4 Logic Viewpoint
+
+The **Logic View** describes the system's internal structure from a **functional decomposition** perspective. It focuses on the key abstractions — classes, components, and layers — that make up the system and how they interact to deliver the system's functionality. This viewpoint is primarily intended for **developers** and **architects** to understand the responsibilities of each logical component and how the system is organized into layers to support separation of concerns.
+
+The WUDA Delivery system follows a **four-layer logical architecture**:
+
+#### Layer 1: Presentation Layer
+The Presentation Layer contains all user-facing interfaces. There are three distinct clients tailored to each type of user:
+- **CustomerApp** – React Native mobile app for browsing vendors, placing orders, and tracking deliveries.
+- **VendorDashboard** – Web-based SPA (React.js) for managing inventory, orders, and business profiles.
+- **AgentApp** – React Native mobile app for delivery agents to accept and fulfill delivery requests.
+
+This layer is responsible only for displaying data and capturing user input. It delegates all business logic to the Application Layer via RESTful API calls through the API Gateway.
+
+#### Layer 2: Application Layer
+The Application Layer orchestrates the system's use cases. It contains the **controllers** that receive incoming requests, validate inputs, and coordinate between domain models and infrastructure services. Key controllers include:
+- **OrderController** – Handles order creation, status updates, and cancellations.
+- **CartController** – Manages adding/removing items and computing cart totals.
+- **DeliveryController** – Handles delivery request assignment, acceptance, and status updates.
+- **AuthController** – Manages user registration, login, and session/token handling.
+
+Each controller maps directly to the functional requirements identified in Section 5.
+
+#### Layer 3: Domain Layer
+The Domain Layer contains the **core business entities** of the system. These are the central data models that represent real-world concepts in the WUDA Delivery platform:
+
+| Entity | Key Attributes | Responsibility |
+|---|---|---|
+| **Order** | id, status, total | Tracks the lifecycle of a customer order |
+| **Product** | id, name, price, stock | Represents a vendor's listed item |
+| **User** | id, role, location | Represents any actor (customer, vendor, agent) |
+| **Cart** | items, quantity | Holds a customer's selected items before checkout |
+| **Delivery** | agentId, status | Represents an active delivery task assigned to an agent |
+| **Feedback** | rating, review text | Stores customer reviews for vendors and products |
+
+This layer contains no knowledge of databases or APIs — it only defines business rules and data structures.
+
+#### Layer 4: Infrastructure Layer
+The Infrastructure Layer handles all external concerns — persistence, external APIs, and communication:
+- **Database** – MySQL (production) / SQLite (mobile local cache) for persistent data storage.
+- **API Gateway** – Single entry point routing all RESTful JSON requests to the appropriate microservice.
+- **Location API** – Google Maps integration providing geolocation, routing, and map display.
+- **Payment API** – External payment gateway (e.g., Stripe) for secure transaction processing.
+
+The upper layers depend on this layer through interfaces, keeping the domain logic independent of specific technologies.
+
+#### Logic View Diagram
+
+The diagram below shows how these four layers are organized and how dependencies flow strictly downward — the Presentation Layer calls the Application Layer, which calls the Domain Layer, which interacts with the Infrastructure Layer. This ensures that business logic remains decoupled from UI concerns and external system details.
+
+![Logic View Diagram](logic_view.png)
+*Figure X: Logic view showing the four-layer architecture with key classes and their layer responsibilities*
+
 ### Architectural Component (microservices) Descriptions
 
 **Product Service**\
