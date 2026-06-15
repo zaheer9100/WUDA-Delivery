@@ -361,7 +361,7 @@ The Use Case Viewpoint captures the primary ways different users (customers, ven
 <a id="figure-3-use-case-diagram-demonstrating-the-use-cases-for-vendor-customer-and-delivery-agent"></a>
 
 <div align="center">
- <img src="./UseCaseDiagram.png" alt="Use Case Diagram" width="900"/>
+ <img src="./2UseCaseDiagram.png" alt="Use Case Diagram" width="900"/>
   <br>
   <em> Figure 3: Use case diagram demonstrating the use cases for vendor, customer and delivery agent</em>
 </div>
