@@ -13,6 +13,7 @@
    - 7.1 [Context Viewpoint](#7-1-context-viewpoint)
    - 7.2 [Use Case Viewpoint](#7-2-use-case-viewpoint)
    - 7.3 [Development Viewpoint](#7-3-development-viewpoint)
+   - 7.4 [Logic Viewpoint](#7-4-logic-viewpoint)
 
 
 8. [Usability](#8-usability-viewpoint)
